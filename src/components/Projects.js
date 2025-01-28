@@ -21,7 +21,7 @@ export const Projects = () => {
       title: "Hotel Admin Dashboard",
       description: "Management of the dashboard",
       imgUrl: projImg2,
-      projectLink: "https://github.com/ajay1264/Hotel-Onbarding-System" 
+      projectLink: "https://hotel-onbarding-system-client.onrender.com" 
     },
     {
       title: "VISTA-TABLE",
