@@ -15,18 +15,20 @@ export const Projects = () => {
       title: "Ecommerce",
       description: "Buy and Sell Products",
       imgUrl: projImg1,
+      projectLink: "https://shopsy-1-xete.onrender.com/"  
     },
     {
       title: "Hotel Admin Dashboard",
       description: "Management of the dashboard",
       imgUrl: projImg2,
+      projectLink: "https://github.com/ajay1264/Hotel-Onbarding-System" 
     },
     {
       title: "VISTA-TABLE",
       description: "HOTEL RESERVATION WEBSITE",
       imgUrl: projImg4,
+      projectLink: "https://github.com/ajay1264/Restaurant-Reservation-app"  
     },
-
   ];
 
   return (
@@ -49,17 +51,11 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
-                                />
+                              />
                             )
                           })
                         }
                       </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
@@ -70,5 +66,5 @@ export const Projects = () => {
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
-  )
-}
+  );
+};
